@@ -3,7 +3,7 @@ import RPi.GPIO as GPIO
 # import a sleep function from time module
 from time import sleep
 
-led = 12  # GPIO number where the led is connected
+led = 13  # GPIO number where the led is connected
 
 # Tell the GPIO module to use GPIO numbering used by processor
 GPIO.setmode(GPIO.BCM)
